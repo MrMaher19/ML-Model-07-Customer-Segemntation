@@ -1,0 +1,10 @@
+# Re-clustering: 
+# Optimal k = 5 . So we recluster the model from 7 clusters to 5 clusters 
+
+  clus = kmeans.cluster_centers_
+  df0 = df[df["pred_clus"]==0]
+  df1 = df[df["pred_clus"]==1]
+  df2 = df[df["pred_clus"]==2]
+  df3 = df[df["pred_clus"]==3]
+  df4 = df[df["pred_clus"]==4]
+  print("DataFrames for each cluster (df0 to df4) have been created.")
