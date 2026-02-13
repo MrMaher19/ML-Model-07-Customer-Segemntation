@@ -1,0 +1,12 @@
+#  Train Model : -
+
+   x = df[['income', 'score']]
+   kmeans = KMeans()
+
+
+# Model Prediction
+
+   model = kmeans.fit_predict(x)
+   model
+   df["pred_clus"] = model
+   df.head()
