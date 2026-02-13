@@ -1,0 +1,13 @@
+# Data visualization after clustering the data : 
+
+  plt.figure(figsize=(9, 7))
+  sns.scatterplot(x="income",y="score",data=df0,color="purple", label='df 0')
+  sns.scatterplot(x="income",y="score",data=df1,color="gray", label='df 1')
+  sns.scatterplot(x="income",y="score",data=df2,color="black", label='df 2')
+  sns.scatterplot(x="income",y="score",data=df3,color="cyan", label='df 3')
+  sns.scatterplot(x="income",y="score",data=df4,color="orange", label='df 4')
+  sns.scatterplot(x="income",y="score",data=df5,color="yellow", label='df 5')
+  sns.scatterplot(x="income",y="score",data=df6,color="green", label='df 6')
+  sns.scatterplot(x="income",y="score",data=df7,color="blue", label='df 7')
+  plt.scatter(clus[:,0],clus[:,1],color="red",label='clus',marker="*",s=100)
+  plt.legend()
