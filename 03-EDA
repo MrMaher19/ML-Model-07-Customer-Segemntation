@@ -1,0 +1,5 @@
+# EDA : -
+
+   df.isna().sum()
+   df.describe()
+   df = df.rename(columns={"Annual Income (k$)":"income", "Spending Score (1-100)":"score"})
