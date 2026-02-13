@@ -1,0 +1,11 @@
+# Cluster the data using kmeans : -
+
+    clus = kmeans.cluster_centers_
+    df0 = df[df["pred_clus"]==0]
+    df1 = df[df["pred_clus"]==1]
+    df2 = df[df["pred_clus"]==2]
+    df3 = df[df["pred_clus"]==3]
+    df4 = df[df["pred_clus"]==4]
+    df5 = df[df["pred_clus"]==5]
+    df6 = df[df["pred_clus"]==6]
+    df7 = df[df["pred_clus"]==7]
