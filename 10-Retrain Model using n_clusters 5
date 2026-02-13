@@ -1,0 +1,6 @@
+# We find optimal K as  5 . So we retrain the model by using n_clusters = 5 for better prediction : 
+
+    kmeans = KMeans(n_clusters=5, random_state=42, n_init='auto')
+    model = kmeans.fit_predict(x)
+    df["pred_clus"] = model
+    df.head()
