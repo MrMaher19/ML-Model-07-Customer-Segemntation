@@ -1,0 +1,9 @@
+#  Data Visualization : -
+
+   # Pairplot : -
+   plt.figure(figsize=(5,3))
+   sns.pairplot(df)
+
+   # Scatter plot : -
+   plt.figure(figsize=(5,3))
+   sns.scatterplot(x="income",y="score",data=df)
