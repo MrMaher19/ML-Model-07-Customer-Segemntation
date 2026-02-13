@@ -1,0 +1,27 @@
+# Summary : -
+
+   Customer Segment Characteristics (K=5)
+Based on the K-Means clustering with 5 clusters, the customer segments can be characterized as follows, considering 'income' (Annual Income (k$)) and 'score' (Spending Score (1-100)):
+
+Cluster 0 (Purple): These customers have average income and average spending scores. They represent a moderate segment of the customer base.
+Centroid: Income ~55, Score ~50
+Cluster 1 (Gray): This segment consists of customers with high income and high spending scores. These are likely the most valuable customers, often referred to as 'targets' or 'high-spenders'.
+Centroid: Income ~87, Score ~82
+Cluster 2 (Black): These customers have low income but high spending scores. They might be impulsive buyers or younger individuals who spend a significant portion of their limited income.
+Centroid: Income ~26, Score ~79
+Cluster 3 (Cyan): This segment is characterized by customers with high income but low spending scores. They could be cautious spenders or individuals who save more, often referred to as 'careful' customers.
+Centroid: Income ~88, Score ~17
+Cluster 4 (Orange): These customers exhibit low income and low spending scores. They are likely the least attractive segment, possibly 'frugal' or 'tight-fisted' customers.
+Centroid: Income ~26, Score ~21
+Summary:
+Data Analysis Key Findings
+The analysis successfully applied K-Means clustering with an optimal K of 5 to segment customers based on their annual income and spending score.
+Five distinct customer segments were identified and visualized, each with unique characteristics:
+Cluster 0 (Purple): Represents customers with average income (centroid: ~$55k) and average spending scores (centroid: ~50).
+Cluster 1 (Gray): Comprises high-income (centroid: ~$87k) and high-spending customers (centroid: ~82), identified as potentially the most valuable segment.
+Cluster 2 (Black): Consists of low-income (centroid: ~$26k) but high-spending customers (centroid: ~79), possibly impulsive buyers.
+Cluster 3 (Cyan): Characterizes high-income (centroid: ~$88k) but low-spending customers (centroid: ~17), labeled as "careful" spenders.
+Cluster 4 (Orange): Includes low-income (centroid: ~$26k) and low-spending customers (centroid: ~21), identified as the least attractive or "frugal" segment.
+Insights or Next Steps
+The identified customer segments provide a clear basis for developing tailored marketing strategies and product offerings to address the specific needs and behaviors of each group.
+Further analysis could involve exploring demographic data or purchase history within each segment to gain deeper insights and refine targeting strategies, for example, to understand why "low income, high spending" customers behave as they do.
