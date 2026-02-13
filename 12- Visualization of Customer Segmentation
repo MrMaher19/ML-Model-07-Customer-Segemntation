@@ -1,0 +1,16 @@
+#  Scatter plot of customer segments with centroids displayed: -
+
+   plt.figure(figsize=(9, 7))
+  sns.scatterplot(x="income",y="score",data=df0,color="purple", label='Cluster 0')
+  sns.scatterplot(x="income",y="score",data=df1,color="gray", label='Cluster 1')
+  sns.scatterplot(x="income",y="score",data=df2,color="black", label='Cluster 2')
+  sns.scatterplot(x="income",y="score",data=df3,color="cyan", label='Cluster 3')
+  sns.scatterplot(x="income",y="score",data=df4,color="orange", label='Cluster 4')
+  plt.scatter(clus[:,0],clus[:,1],color="red",label='Centroids',marker="*",s=200, edgecolor='black')
+  plt.title('Customer Segments based on Income and Spending Score')
+  plt.xlabel('Annual Income (k$)')
+  plt.ylabel('Spending Score (1-100)')
+  plt.legend()
+  plt.grid(True)
+  plt.show()
+  print("Scatter plot of customer segments with centroids displayed.")
