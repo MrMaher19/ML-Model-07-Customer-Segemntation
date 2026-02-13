@@ -1,0 +1,6 @@
+# Visualize Elbow Method to find the best K : 
+
+    elbow = KneeLocator(clus_range,wcss,curve="convex",direction="decreasing")
+    elbow.plot_knee()
+
+    # The best K is : 5
