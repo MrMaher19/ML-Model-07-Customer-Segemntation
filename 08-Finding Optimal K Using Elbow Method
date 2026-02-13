@@ -1,0 +1,10 @@
+# Elbow Method to find the best k for kmeans cluster model : -
+
+   # This code used to find the actual K
+    wcss = []
+    clus_range = range(2,15)
+    for k in clus_range:
+      kmean = KMeans(n_clusters=k)
+      kmean.fit(x)
+      wcss.append(kmean.inertia_)
+    wcss
